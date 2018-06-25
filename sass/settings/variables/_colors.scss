@@ -1,13 +1,23 @@
 // Colors Variables Settings Stylesheet
 // ========================================
 
-$black: black;
-$blue: blue;
-$green: green;
+$green: #308269;
+$blue: #0D2F4F;
+$yellow: #E2C675;
+$black: #020706;
+$gray: #CECECE;
+$white: 'white';
+$mint: #7DD8BC;
+$pink: #FF4057;
 
 // Main Palette List
 $colors: (
-  black:    $black,
-  blue:     $blue,
-  green:    $green,
+  green:     $green,
+  blue:      $blue,
+  yellow:    $yellow,
+  black:     $black,
+  gray:      $gray,
+  white:     $white,
+  mint:      $mint,
+  pink:      $pink
 );

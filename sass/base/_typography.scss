@@ -8,11 +8,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-
+  font-size: 36px;
+  padding-bottom: $spacer-s;
 }
 
 h2 {
-
+  font-size: 30px;
+  padding:$spacer-s 0;
 }
 
 h3 {
@@ -32,13 +34,35 @@ h6 {
 }
 
 p {
+  @include font-type($secondary-font, normal, normal);
+  padding: $spacer-xs 0;
+  font-size: 16px;
+}
 
+ol {
+  list-style-type: decimal;
+  padding: 0 $spacer-lg;
+}
+
+li {
+  @include font-type($secondary-font, normal, normal);
 }
 
 a {
 
+}
 
-  &:hover {
+.header__list__item {
+  @include font-type($primary-font, normal, normal);
+  font-size: 16px;
 
+  a {
+    text-decoration: none;
+    color: $green;
+
+    &:hover {
+      color: darken($green, 10%);
+      transition: .2s;
+    }
   }
 }

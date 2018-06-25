@@ -3,6 +3,25 @@
 // ========================================
 
 .header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+ &__logo {
+   padding: $spacer-lg;
+   max-width: 300px;
+ }
+
+ &__list {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+ }
+
+ &__list__item {
+   padding: $spacer-m;
+ }
 
 }
 
@@ -10,7 +29,7 @@
   padding: $spacer-m;
 
   &__section {
-    margin: $spacer-lg $reset-0;
+    margin: $reset-0 $reset-0 $spacer-xxl;
 
     &--index {
 
@@ -23,5 +42,8 @@
 }
 
 .footer {
-
+  background-color: $green;
+  height: 50px;
+  text-align: center;
+  position: sticky;
 }
