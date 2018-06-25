@@ -45,7 +45,24 @@
 }
 
 .item-container {
-    margin: $spacer-m $reset-0;
+    margin: $spacer-m;
+}
+
+.headers--inset {
+  margin: $spacer-s;
+}
+
+.color-list {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    background-color: lighten($gray, 10%);
+  }
+
+  &__square {
+    height: 75px;
+  }
 }
 
 .footer {
