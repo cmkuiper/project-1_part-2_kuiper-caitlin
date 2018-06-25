@@ -2,6 +2,11 @@
 // This is where your base typography will go
 // ========================================
 
+h1, h2, h3, h4, h5, h6 {
+  @include font-type($primary-font, normal, normal);
+  color: $black;
+}
+
 h1 {
 
 }
