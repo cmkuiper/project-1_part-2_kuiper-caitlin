@@ -3,7 +3,7 @@
 // ========================================
 
 h1, h2, h3, h4, h5, h6 {
-  @include font-type($primary-font, normal, normal);
+  font-family: $primary-font;
   color: $black;
 }
 
@@ -38,7 +38,7 @@ h6 {
 }
 
 p {
-  @include font-type($secondary-font, normal, normal);
+  font-family: $secondary-font;
   padding: $spacer-xs 0;
   font-size: 16px;
 }
@@ -49,13 +49,13 @@ ol {
 }
 
 li {
-  @include font-type($secondary-font, normal, normal);
+  font-family: $secondary-font;
 }
 
 a {
     text-decoration: none;
     color: $green;
-    @include font-type($secondary-font, normal, normal);
+    font-family: $secondary-font;
 
     &:hover {
       color: darken($green, 10%);
@@ -66,10 +66,24 @@ a {
 .a--nohover {
   text-decoration: none;
   color: $green;
-  @include font-type($secondary-font, normal, normal);
+  font-family: $primary-font;
 }
 
 .header__list__item {
-  @include font-type($primary-font, normal, normal);
+  font-family: $primary-font;
   font-size: 16px;
+
+  a {
+    font-family: $primary-font;
+  }
+}
+
+.chip__text--title {
+  font-family: $primary-font;
+  color: $green;
+}
+
+.chip__text--description {
+  font-family: $secondary-font;
+  color: darken($gray, 40%);
 }
