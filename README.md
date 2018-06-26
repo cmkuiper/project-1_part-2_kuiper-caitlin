@@ -1,8 +1,8 @@
 # Project 1 - Part 2
 
 ## Links
-[Web Hosting](http://caitlinkuiper.com/advweb1_p1_patternlibrary/)
-[GitHub Repository](https://github.com/cmkuiper/project-1_part-2_kuiper-caitlin)
+- [Web Hosting](http://caitlinkuiper.com/advweb1_p1_patternlibrary/)
+- [GitHub Repository](https://github.com/cmkuiper/project-1_part-2_kuiper-caitlin)
 
 ## Resources
 - [W3Schools CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [CSS Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): I used these resources to get a better understanding about how to use Flexbox for my layout.
