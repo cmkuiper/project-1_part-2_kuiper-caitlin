@@ -1,22 +1,13 @@
 # Project 1 - Part 2
 
-Remove all contents from here down when you submit your project.
+## Links
+[Web Hosting](http://caitlinkuiper.com/advweb1_p1_patternlibrary/)
+[GitHub Repository](https://github.com/cmkuiper/project-1_part-2_kuiper-caitlin)
 
----
+## Resources
+- [W3Schools CSS Flexbox](https://www.w3schools.com/css/css3_flexbox.asp) and [CSS Tricks Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/): I used these resources to get a better understanding about how to use Flexbox for my layout.
+- 6/12 and 6/19 class lectures: I referenced the class lectures to complete my color cards and chips.
 
-1. Clone this repository
-2. Remove the existing .git folder (`rm -rf .git` in your terminal)
-3. Create a new Git repo in your project (`git init`)
-4. Update your .EditorConfig file with (at least) the following properties:
- * indent_style
- * insert_final_newline
- * trim_trailing_whitespace
-5. Add all existing files to the repo with a commit message of “initial commit”.
-6. Create a Repository on Github called `project-1_part-2_lastname-firstname`
-7. Push your existing repository from the command line
-8. Follow the directions for Project 1 - Part 2.
-
----
-
-To get Sass running:
-Use `sass --watch sass:css --style compressed` on your command line
+## Comments
+- I had some issues with my nesting on my form elements. I don't think I named my classes correctly because my stles wouldn't apply when nested.
+- The ready-made pattern library template was super helpful, but I also think I would have learned a lot if I had to set up the files myself. In the future, I would suggest creating an assignment just around setting up the files for this project.
