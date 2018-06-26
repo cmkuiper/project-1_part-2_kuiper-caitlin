@@ -53,20 +53,23 @@ li {
 }
 
 a {
-
-}
-
-.header__list__item {
-  @include font-type($primary-font, normal, normal);
-  font-size: 16px;
-
-  a {
     text-decoration: none;
     color: $green;
+    @include font-type($secondary-font, normal, normal);
 
     &:hover {
       color: darken($green, 10%);
       transition: .2s;
     }
-  }
+}
+
+.a--nohover {
+  text-decoration: none;
+  color: $green;
+  @include font-type($secondary-font, normal, normal);
+}
+
+.header__list__item {
+  @include font-type($primary-font, normal, normal);
+  font-size: 16px;
 }
